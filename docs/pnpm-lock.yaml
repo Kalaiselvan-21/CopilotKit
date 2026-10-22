@@ -16,10 +16,10 @@ importers:
         version: 6.21.0(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@copilotkit/react-core':
         specifier: 1.9.2
-        version: 1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)
       '@copilotkit/react-ui':
         specifier: 1.9.2
-        version: 1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)
       '@icons-pack/react-simple-icons':
         specifier: ^11.2.0
         version: 11.2.0(react@19.1.0)
@@ -46,7 +46,7 @@ importers:
         version: 3.13.0
       '@theguild/remark-mermaid':
         specifier: ^0.1.3
-        version: 0.1.3(react@19.1.0)
+        version: 0.1.3(react@19.1.0)(supports-color@7.2.0)
       '@theguild/remark-npm2yarn':
         specifier: ^0.3.2
         version: 0.3.3
@@ -61,22 +61,22 @@ importers:
         version: 2.1.1
       fumadocs-core:
         specifier: 15.6.3
-        version: 15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)
       fumadocs-docgen:
         specifier: ^1.2.0
-        version: 1.3.8(typescript@5.8.3)
+        version: 1.3.8(supports-color@7.2.0)(typescript@5.8.3)
       fumadocs-mdx:
         specifier: 11.6.11
-        version: 11.6.11(acorn@8.15.0)(fumadocs-core@15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        version: 11.6.11(acorn@8.15.0)(fumadocs-core@15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0))(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(supports-color@7.2.0)
       fumadocs-typescript:
         specifier: ^2.1.0
-        version: 2.1.0(typescript@5.8.3)
+        version: 2.1.0(supports-color@7.2.0)(typescript@5.8.3)
       fumadocs-ui:
         specifier: 15.6.3
-        version: 15.6.3(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.11)
+        version: 15.6.3(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)(tailwindcss@4.1.11)
       hast-util-to-jsx-runtime:
         specifier: ^2.3.0
-        version: 2.3.6
+        version: 2.3.6(supports-color@7.2.0)
       lucide-react:
         specifier: ^0.446.0
         version: 0.446.0(react@19.1.0)
@@ -109,7 +109,7 @@ importers:
         version: 5.5.0(react@19.1.0)
       react-youtube:
         specifier: ^10.1.0
-        version: 10.1.0(react@19.1.0)
+        version: 10.1.0(react@19.1.0)(supports-color@7.2.0)
       rehype-highlight-code-lines:
         specifier: ^1.0.4
         version: 1.1.4(unified@11.0.5)
@@ -152,10 +152,10 @@ importers:
         version: 10.4.21(postcss@8.5.4)
       eslint:
         specifier: ^9.31.0
-        version: 9.31.0(jiti@2.4.2)
+        version: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       eslint-config-next:
         specifier: 15.4.1
-        version: 15.4.1(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
+        version: 15.4.1(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
       husky:
         specifier: ^9.1.6
         version: 9.1.7
@@ -2398,6 +2398,7 @@ packages:
   eslint@9.31.0:
     resolution: {integrity: sha512-QldCVh/ztyKJJZLr4jXNUByx3gR+TDYZCRXEktiZoUR3PGy4qCmSbkxcIle8GEwGpb5JBZazlaJ/CxLidXdEbQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2949,8 +2950,8 @@ packages:
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
-  js-yaml@4.1.0:
-    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+  js-yaml@4.3.2:
+    resolution: {integrity: sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==}
     hasBin: true
 
   json-buffer@3.0.1:
@@ -4463,14 +4464,14 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@copilotkit/react-core@1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@copilotkit/react-core@1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)':
     dependencies:
       '@copilotkit/runtime-client-gql': 1.9.2(graphql@16.11.0)(react@19.1.0)
       '@copilotkit/shared': 1.9.2
       '@scarf/scarf': 1.4.0
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      react-markdown: 8.0.7(@types/react@18.3.23)(react@19.1.0)
+      react-markdown: 8.0.7(@types/react@18.3.23)(react@19.1.0)(supports-color@7.2.0)
       untruncate-json: 0.0.1
     transitivePeerDependencies:
       - '@types/react'
@@ -4478,18 +4479,18 @@ snapshots:
       - graphql
       - supports-color
 
-  '@copilotkit/react-ui@1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@copilotkit/react-ui@1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)':
     dependencies:
-      '@copilotkit/react-core': 1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@copilotkit/react-core': 1.9.2(@types/react@18.3.23)(graphql@16.11.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)
       '@copilotkit/runtime-client-gql': 1.9.2(graphql@16.11.0)(react@19.1.0)
       '@copilotkit/shared': 1.9.2
       '@headlessui/react': 2.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
-      react-markdown: 10.1.0(@types/react@18.3.23)(react@19.1.0)
+      react-markdown: 10.1.0(@types/react@18.3.23)(react@19.1.0)(supports-color@7.2.0)
       react-syntax-highlighter: 15.6.1(react@19.1.0)
       rehype-raw: 7.0.0
-      remark-gfm: 4.0.1
-      remark-math: 6.0.0
+      remark-gfm: 4.0.1(supports-color@7.2.0)
+      remark-math: 6.0.0(supports-color@7.2.0)
     transitivePeerDependencies:
       - '@types/react'
       - encoding
@@ -4613,17 +4614,17 @@ snapshots:
   '@esbuild/win32-x64@0.25.6':
     optional: true
 
-  '@eslint-community/eslint-utils@4.7.0(eslint@9.31.0(jiti@2.4.2))':
+  '@eslint-community/eslint-utils@4.7.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))':
     dependencies:
-      eslint: 9.31.0(jiti@2.4.2)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.1': {}
 
-  '@eslint/config-array@0.21.0':
+  '@eslint/config-array@0.21.0(supports-color@7.2.0)':
     dependencies:
       '@eslint/object-schema': 2.1.6
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -4634,15 +4635,15 @@ snapshots:
     dependencies:
       '@types/json-schema': 7.0.15
 
-  '@eslint/eslintrc@3.3.1':
+  '@eslint/eslintrc@3.3.1(supports-color@7.2.0)':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       espree: 10.4.0
       globals: 14.0.0
       ignore: 5.3.2
       import-fresh: 3.3.1
-      js-yaml: 4.1.0
+      js-yaml: 4.3.2
       minimatch: 3.1.2
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
@@ -4711,12 +4712,12 @@ snapshots:
 
   '@iconify/types@2.0.0': {}
 
-  '@iconify/utils@2.3.0':
+  '@iconify/utils@2.3.0(supports-color@7.2.0)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@antfu/utils': 8.1.1
       '@iconify/types': 2.0.0
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       globals: 15.15.0
       kolorist: 1.8.0
       local-pkg: 1.1.1
@@ -4841,7 +4842,7 @@ snapshots:
     dependencies:
       '@lukeed/csprng': 1.1.0
 
-  '@mdx-js/mdx@3.1.0(acorn@8.15.0)':
+  '@mdx-js/mdx@3.1.0(acorn@8.15.0)(supports-color@7.2.0)':
     dependencies:
       '@types/estree': 1.0.8
       '@types/estree-jsx': 1.0.5
@@ -4852,14 +4853,14 @@ snapshots:
       estree-util-is-identifier-name: 3.0.0
       estree-util-scope: 1.0.0
       estree-walker: 3.0.3
-      hast-util-to-jsx-runtime: 2.3.6
+      hast-util-to-jsx-runtime: 2.3.6(supports-color@7.2.0)
       markdown-extensions: 2.0.0
       recma-build-jsx: 1.0.0
       recma-jsx: 1.0.0(acorn@8.15.0)
       recma-stringify: 1.0.0
-      rehype-recma: 1.0.0
-      remark-mdx: 3.1.0
-      remark-parse: 11.0.0
+      rehype-recma: 1.0.0(supports-color@7.2.0)
+      remark-mdx: 3.1.0(supports-color@7.2.0)
+      remark-parse: 11.0.0(supports-color@7.2.0)
       remark-rehype: 11.1.2
       source-map: 0.7.4
       unified: 11.0.5
@@ -5580,9 +5581,9 @@ snapshots:
 
   '@tanstack/virtual-core@3.13.9': {}
 
-  '@theguild/remark-mermaid@0.1.3(react@19.1.0)':
+  '@theguild/remark-mermaid@0.1.3(react@19.1.0)(supports-color@7.2.0)':
     dependencies:
-      mermaid: 11.6.0
+      mermaid: 11.6.0(supports-color@7.2.0)
       react: 19.1.0
       unist-util-visit: 5.0.0
     transitivePeerDependencies:
@@ -5781,15 +5782,15 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@typescript-eslint/eslint-plugin@8.37.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@typescript-eslint/eslint-plugin@8.37.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.1
-      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
       '@typescript-eslint/scope-manager': 8.37.0
-      '@typescript-eslint/type-utils': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
-      '@typescript-eslint/utils': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/type-utils': 8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 8.37.0
-      eslint: 9.31.0(jiti@2.4.2)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       graphemer: 1.4.0
       ignore: 7.0.5
       natural-compare: 1.4.0
@@ -5798,23 +5799,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/scope-manager': 8.37.0
       '@typescript-eslint/types': 8.37.0
-      '@typescript-eslint/typescript-estree': 8.37.0(typescript@5.8.3)
+      '@typescript-eslint/typescript-estree': 8.37.0(supports-color@7.2.0)(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 8.37.0
-      debug: 4.4.1
-      eslint: 9.31.0(jiti@2.4.2)
+      debug: 4.4.1(supports-color@7.2.0)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/project-service@8.37.0(typescript@5.8.3)':
+  '@typescript-eslint/project-service@8.37.0(supports-color@7.2.0)(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.37.0(typescript@5.8.3)
       '@typescript-eslint/types': 8.37.0
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
@@ -5828,13 +5829,13 @@ snapshots:
     dependencies:
       typescript: 5.8.3
 
-  '@typescript-eslint/type-utils@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@typescript-eslint/type-utils@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/types': 8.37.0
-      '@typescript-eslint/typescript-estree': 8.37.0(typescript@5.8.3)
-      '@typescript-eslint/utils': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
-      debug: 4.4.1
-      eslint: 9.31.0(jiti@2.4.2)
+      '@typescript-eslint/typescript-estree': 8.37.0(supports-color@7.2.0)(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
+      debug: 4.4.1(supports-color@7.2.0)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       ts-api-utils: 2.1.0(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -5842,13 +5843,13 @@ snapshots:
 
   '@typescript-eslint/types@8.37.0': {}
 
-  '@typescript-eslint/typescript-estree@8.37.0(typescript@5.8.3)':
+  '@typescript-eslint/typescript-estree@8.37.0(supports-color@7.2.0)(typescript@5.8.3)':
     dependencies:
-      '@typescript-eslint/project-service': 8.37.0(typescript@5.8.3)
+      '@typescript-eslint/project-service': 8.37.0(supports-color@7.2.0)(typescript@5.8.3)
       '@typescript-eslint/tsconfig-utils': 8.37.0(typescript@5.8.3)
       '@typescript-eslint/types': 8.37.0
       '@typescript-eslint/visitor-keys': 8.37.0
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -5858,13 +5859,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@typescript-eslint/utils@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.31.0(jiti@2.4.2))
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))
       '@typescript-eslint/scope-manager': 8.37.0
       '@typescript-eslint/types': 8.37.0
-      '@typescript-eslint/typescript-estree': 8.37.0(typescript@5.8.3)
-      eslint: 9.31.0(jiti@2.4.2)
+      '@typescript-eslint/typescript-estree': 8.37.0(supports-color@7.2.0)(typescript@5.8.3)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
@@ -6433,17 +6434,23 @@ snapshots:
 
   dayjs@1.11.13: {}
 
-  debug@2.6.9:
+  debug@2.6.9(supports-color@7.2.0):
     dependencies:
       ms: 2.0.0
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@3.2.7:
+  debug@3.2.7(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
-  debug@4.4.1:
+  debug@4.4.1(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   decode-named-character-reference@1.1.0:
     dependencies:
@@ -6661,19 +6668,19 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@15.4.1(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3):
+  eslint-config-next@15.4.1(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3):
     dependencies:
       '@next/eslint-plugin-next': 15.4.1
       '@rushstack/eslint-patch': 1.12.0
-      '@typescript-eslint/eslint-plugin': 8.37.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
-      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
-      eslint: 9.31.0(jiti@2.4.2)
-      eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.31.0(jiti@2.4.2))
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2))
-      eslint-plugin-jsx-a11y: 6.10.2(eslint@9.31.0(jiti@2.4.2))
-      eslint-plugin-react: 7.37.5(eslint@9.31.0(jiti@2.4.2))
-      eslint-plugin-react-hooks: 5.2.0(eslint@9.31.0(jiti@2.4.2))
+      '@typescript-eslint/eslint-plugin': 8.37.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
+      eslint-import-resolver-node: 0.3.9(supports-color@7.2.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)
+      eslint-plugin-jsx-a11y: 6.10.2(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))
+      eslint-plugin-react: 7.37.5(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))
+      eslint-plugin-react-hooks: 5.2.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))
     optionalDependencies:
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -6681,52 +6688,52 @@ snapshots:
       - eslint-plugin-import-x
       - supports-color
 
-  eslint-import-resolver-node@0.3.9:
+  eslint-import-resolver-node@0.3.9(supports-color@7.2.0):
     dependencies:
-      debug: 3.2.7
+      debug: 3.2.7(supports-color@7.2.0)
       is-core-module: 2.16.1
       resolve: 1.22.10
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0)(eslint@9.31.0(jiti@2.4.2)):
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
-      debug: 4.4.1
-      eslint: 9.31.0(jiti@2.4.2)
+      debug: 4.4.1(supports-color@7.2.0)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       get-tsconfig: 4.10.1
       is-bun-module: 2.0.0
       stable-hash: 0.0.5
       tinyglobby: 0.2.14
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2))
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2)):
+  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3))(eslint-import-resolver-node@0.3.9(supports-color@7.2.0))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0):
     dependencies:
-      debug: 3.2.7
+      debug: 3.2.7(supports-color@7.2.0)
     optionalDependencies:
-      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
-      eslint: 9.31.0(jiti@2.4.2)
-      eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.31.0(jiti@2.4.2))
+      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
+      eslint-import-resolver-node: 0.3.9(supports-color@7.2.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2)):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
       array.prototype.findlastindex: 1.2.6
       array.prototype.flat: 1.3.3
       array.prototype.flatmap: 1.3.3
-      debug: 3.2.7
+      debug: 3.2.7(supports-color@7.2.0)
       doctrine: 2.1.0
-      eslint: 9.31.0(jiti@2.4.2)
-      eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2))
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
+      eslint-import-resolver-node: 0.3.9(supports-color@7.2.0)
+      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3))(eslint-import-resolver-node@0.3.9(supports-color@7.2.0))(eslint-import-resolver-typescript@3.10.1)(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -6738,13 +6745,13 @@ snapshots:
       string.prototype.trimend: 1.0.9
       tsconfig-paths: 3.15.0
     optionalDependencies:
-      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.37.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.8.3)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-jsx-a11y@6.10.2(eslint@9.31.0(jiti@2.4.2)):
+  eslint-plugin-jsx-a11y@6.10.2(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0)):
     dependencies:
       aria-query: 5.3.2
       array-includes: 3.1.9
@@ -6754,7 +6761,7 @@ snapshots:
       axobject-query: 4.1.0
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
-      eslint: 9.31.0(jiti@2.4.2)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
       language-tags: 1.0.9
@@ -6763,11 +6770,11 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-react-hooks@5.2.0(eslint@9.31.0(jiti@2.4.2)):
+  eslint-plugin-react-hooks@5.2.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0)):
     dependencies:
-      eslint: 9.31.0(jiti@2.4.2)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
 
-  eslint-plugin-react@7.37.5(eslint@9.31.0(jiti@2.4.2)):
+  eslint-plugin-react@7.37.5(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0)):
     dependencies:
       array-includes: 3.1.9
       array.prototype.findlast: 1.2.5
@@ -6775,7 +6782,7 @@ snapshots:
       array.prototype.tosorted: 1.1.4
       doctrine: 2.1.0
       es-iterator-helpers: 1.2.1
-      eslint: 9.31.0(jiti@2.4.2)
+      eslint: 9.31.0(jiti@2.4.2)(supports-color@7.2.0)
       estraverse: 5.3.0
       hasown: 2.0.2
       jsx-ast-utils: 3.3.5
@@ -6798,14 +6805,14 @@ snapshots:
 
   eslint-visitor-keys@4.2.1: {}
 
-  eslint@9.31.0(jiti@2.4.2):
+  eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.31.0(jiti@2.4.2))
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.31.0(jiti@2.4.2)(supports-color@7.2.0))
       '@eslint-community/regexpp': 4.12.1
-      '@eslint/config-array': 0.21.0
+      '@eslint/config-array': 0.21.0(supports-color@7.2.0)
       '@eslint/config-helpers': 0.3.0
       '@eslint/core': 0.15.1
-      '@eslint/eslintrc': 3.3.1
+      '@eslint/eslintrc': 3.3.1(supports-color@7.2.0)
       '@eslint/js': 9.31.0
       '@eslint/plugin-kit': 0.3.3
       '@humanfs/node': 0.16.6
@@ -6816,7 +6823,7 @@ snapshots:
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       escape-string-regexp: 4.0.0
       eslint-scope: 8.4.0
       eslint-visitor-keys: 4.2.1
@@ -6963,21 +6970,21 @@ snapshots:
 
   fraction.js@4.3.7: {}
 
-  fumadocs-core@15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  fumadocs-core@15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0):
     dependencies:
       '@formatjs/intl-localematcher': 0.6.1
       '@orama/orama': 3.1.11
       '@shikijs/rehype': 3.8.0
       '@shikijs/transformers': 3.13.0
       github-slugger: 2.0.0
-      hast-util-to-estree: 3.1.3
-      hast-util-to-jsx-runtime: 2.3.6
+      hast-util-to-estree: 3.1.3(supports-color@7.2.0)
+      hast-util-to-jsx-runtime: 2.3.6(supports-color@7.2.0)
       image-size: 2.0.2
       negotiator: 1.0.0
       npm-to-yarn: 3.0.1
       react-remove-scroll: 2.7.1(@types/react@18.3.23)(react@19.1.0)
-      remark: 15.0.1
-      remark-gfm: 4.0.1
+      remark: 15.0.1(supports-color@7.2.0)
+      remark-gfm: 4.0.1(supports-color@7.2.0)
       remark-rehype: 11.1.2
       scroll-into-view-if-needed: 3.1.0
       shiki: 3.13.0
@@ -6990,12 +6997,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-docgen@1.3.8(typescript@5.8.3):
+  fumadocs-docgen@1.3.8(supports-color@7.2.0)(typescript@5.8.3):
     dependencies:
       estree-util-to-js: 2.0.0
       estree-util-value-to-estree: 3.4.0
-      fumadocs-typescript: 3.1.0(typescript@5.8.3)
-      hast-util-to-estree: 3.1.3
+      fumadocs-typescript: 3.1.0(supports-color@7.2.0)(typescript@5.8.3)
+      hast-util-to-estree: 3.1.3(supports-color@7.2.0)
       npm-to-yarn: 3.0.1
       oxc-transform: 0.51.0
       unist-util-visit: 5.0.0
@@ -7004,15 +7011,15 @@ snapshots:
       - supports-color
       - typescript
 
-  fumadocs-mdx@11.6.11(acorn@8.15.0)(fumadocs-core@15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
+  fumadocs-mdx@11.6.11(acorn@8.15.0)(fumadocs-core@15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0))(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(supports-color@7.2.0):
     dependencies:
-      '@mdx-js/mdx': 3.1.0(acorn@8.15.0)
+      '@mdx-js/mdx': 3.1.0(acorn@8.15.0)(supports-color@7.2.0)
       '@standard-schema/spec': 1.0.0
       chokidar: 4.0.3
       esbuild: 0.25.6
       estree-util-value-to-estree: 3.4.0
-      fumadocs-core: 15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      js-yaml: 4.1.0
+      fumadocs-core: 15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)
+      js-yaml: 4.3.2
       lru-cache: 11.1.0
       picocolors: 1.1.1
       tinyexec: 1.0.1
@@ -7025,24 +7032,24 @@ snapshots:
       - acorn
       - supports-color
 
-  fumadocs-typescript@2.1.0(typescript@5.8.3):
+  fumadocs-typescript@2.1.0(supports-color@7.2.0)(typescript@5.8.3):
     dependencies:
       fast-glob: 3.3.3
-      hast-util-to-jsx-runtime: 2.3.6
-      mdast-util-from-markdown: 2.0.2
-      mdast-util-gfm: 3.1.0
+      hast-util-to-jsx-runtime: 2.3.6(supports-color@7.2.0)
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
+      mdast-util-gfm: 3.1.0(supports-color@7.2.0)
       mdast-util-to-hast: 13.2.0
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-typescript@3.1.0(typescript@5.8.3):
+  fumadocs-typescript@3.1.0(supports-color@7.2.0)(typescript@5.8.3):
     dependencies:
       estree-util-value-to-estree: 3.4.0
       fast-glob: 3.3.3
-      hast-util-to-estree: 3.1.3
-      hast-util-to-jsx-runtime: 2.3.6
-      remark: 15.0.1
+      hast-util-to-estree: 3.1.3(supports-color@7.2.0)
+      hast-util-to-jsx-runtime: 2.3.6(supports-color@7.2.0)
+      remark: 15.0.1(supports-color@7.2.0)
       remark-rehype: 11.1.2
       shiki: 3.13.0
       ts-morph: 25.0.1
@@ -7051,7 +7058,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-ui@15.6.3(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.11):
+  fumadocs-ui@15.6.3(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)(tailwindcss@4.1.11):
     dependencies:
       '@radix-ui/react-accordion': 1.2.11(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-collapsible': 1.1.11(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -7064,7 +7071,7 @@ snapshots:
       '@radix-ui/react-slot': 1.2.3(@types/react@18.3.23)(react@19.1.0)
       '@radix-ui/react-tabs': 1.1.12(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       class-variance-authority: 0.7.1
-      fumadocs-core: 15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      fumadocs-core: 15.6.3(@types/react@18.3.23)(next@15.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(supports-color@7.2.0)
       lodash.merge: 4.6.2
       next-themes: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       postcss-selector-parser: 7.1.0
@@ -7212,7 +7219,7 @@ snapshots:
       web-namespaces: 2.0.1
       zwitch: 2.0.4
 
-  hast-util-to-estree@3.1.3:
+  hast-util-to-estree@3.1.3(supports-color@7.2.0):
     dependencies:
       '@types/estree': 1.0.8
       '@types/estree-jsx': 1.0.5
@@ -7222,9 +7229,9 @@ snapshots:
       estree-util-attach-comments: 3.0.0
       estree-util-is-identifier-name: 3.0.0
       hast-util-whitespace: 3.0.0
-      mdast-util-mdx-expression: 2.0.1
-      mdast-util-mdx-jsx: 3.2.0
-      mdast-util-mdxjs-esm: 2.0.1
+      mdast-util-mdx-expression: 2.0.1(supports-color@7.2.0)
+      mdast-util-mdx-jsx: 3.2.0(supports-color@7.2.0)
+      mdast-util-mdxjs-esm: 2.0.1(supports-color@7.2.0)
       property-information: 7.1.0
       space-separated-tokens: 2.0.2
       style-to-js: 1.1.16
@@ -7247,7 +7254,7 @@ snapshots:
       stringify-entities: 4.0.4
       zwitch: 2.0.4
 
-  hast-util-to-jsx-runtime@2.3.6:
+  hast-util-to-jsx-runtime@2.3.6(supports-color@7.2.0):
     dependencies:
       '@types/estree': 1.0.8
       '@types/hast': 3.0.4
@@ -7256,9 +7263,9 @@ snapshots:
       devlop: 1.1.0
       estree-util-is-identifier-name: 3.0.0
       hast-util-whitespace: 3.0.0
-      mdast-util-mdx-expression: 2.0.1
-      mdast-util-mdx-jsx: 3.2.0
-      mdast-util-mdxjs-esm: 2.0.1
+      mdast-util-mdx-expression: 2.0.1(supports-color@7.2.0)
+      mdast-util-mdx-jsx: 3.2.0(supports-color@7.2.0)
+      mdast-util-mdxjs-esm: 2.0.1(supports-color@7.2.0)
       property-information: 7.1.0
       space-separated-tokens: 2.0.2
       style-to-js: 1.1.16
@@ -7507,7 +7514,7 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  js-yaml@4.1.0:
+  js-yaml@4.3.2:
     dependencies:
       argparse: 2.0.1
 
@@ -7676,13 +7683,13 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  mdast-util-from-markdown@1.3.1:
+  mdast-util-from-markdown@1.3.1(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 3.0.15
       '@types/unist': 2.0.11
       decode-named-character-reference: 1.1.0
       mdast-util-to-string: 3.2.0
-      micromark: 3.2.0
+      micromark: 3.2.0(supports-color@7.2.0)
       micromark-util-decode-numeric-character-reference: 1.1.0
       micromark-util-decode-string: 1.1.0
       micromark-util-normalize-identifier: 1.1.0
@@ -7693,14 +7700,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-from-markdown@2.0.2:
+  mdast-util-from-markdown@2.0.2(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
       '@types/unist': 3.0.3
       decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       mdast-util-to-string: 4.0.0
-      micromark: 4.0.2
+      micromark: 4.0.2(supports-color@7.2.0)
       micromark-util-decode-numeric-character-reference: 2.0.2
       micromark-util-decode-string: 2.0.1
       micromark-util-normalize-identifier: 2.0.1
@@ -7718,79 +7725,79 @@ snapshots:
       mdast-util-find-and-replace: 3.0.2
       micromark-util-character: 2.1.1
 
-  mdast-util-gfm-footnote@2.1.0:
+  mdast-util-gfm-footnote@2.1.0(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
       micromark-util-normalize-identifier: 2.0.1
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-gfm-strikethrough@2.0.0:
+  mdast-util-gfm-strikethrough@2.0.0(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-gfm-table@2.0.0:
+  mdast-util-gfm-table@2.0.0(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
       markdown-table: 3.0.4
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-gfm-task-list-item@2.0.0:
+  mdast-util-gfm-task-list-item@2.0.0(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-gfm@3.1.0:
+  mdast-util-gfm@3.1.0(supports-color@7.2.0):
     dependencies:
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-gfm-autolink-literal: 2.0.1
-      mdast-util-gfm-footnote: 2.1.0
-      mdast-util-gfm-strikethrough: 2.0.0
-      mdast-util-gfm-table: 2.0.0
-      mdast-util-gfm-task-list-item: 2.0.0
+      mdast-util-gfm-footnote: 2.1.0(supports-color@7.2.0)
+      mdast-util-gfm-strikethrough: 2.0.0(supports-color@7.2.0)
+      mdast-util-gfm-table: 2.0.0(supports-color@7.2.0)
+      mdast-util-gfm-task-list-item: 2.0.0(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-math@3.0.0:
+  mdast-util-math@3.0.0(supports-color@7.2.0):
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
       devlop: 1.1.0
       longest-streak: 3.1.0
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
       unist-util-remove-position: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-mdx-expression@2.0.1:
+  mdast-util-mdx-expression@2.0.1(supports-color@7.2.0):
     dependencies:
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-mdx-jsx@3.2.0:
+  mdast-util-mdx-jsx@3.2.0(supports-color@7.2.0):
     dependencies:
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
@@ -7798,7 +7805,7 @@ snapshots:
       '@types/unist': 3.0.3
       ccount: 2.0.1
       devlop: 1.1.0
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
       parse-entities: 4.0.2
       stringify-entities: 4.0.4
@@ -7807,23 +7814,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-mdx@3.0.0:
+  mdast-util-mdx@3.0.0(supports-color@7.2.0):
     dependencies:
-      mdast-util-from-markdown: 2.0.2
-      mdast-util-mdx-expression: 2.0.1
-      mdast-util-mdx-jsx: 3.2.0
-      mdast-util-mdxjs-esm: 2.0.1
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
+      mdast-util-mdx-expression: 2.0.1(supports-color@7.2.0)
+      mdast-util-mdx-jsx: 3.2.0(supports-color@7.2.0)
+      mdast-util-mdxjs-esm: 2.0.1(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
       - supports-color
 
-  mdast-util-mdxjs-esm@2.0.1:
+  mdast-util-mdxjs-esm@2.0.1(supports-color@7.2.0):
     dependencies:
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       mdast-util-to-markdown: 2.1.2
     transitivePeerDependencies:
       - supports-color
@@ -7880,10 +7887,10 @@ snapshots:
 
   merge2@1.4.1: {}
 
-  mermaid@11.6.0:
+  mermaid@11.6.0(supports-color@7.2.0):
     dependencies:
       '@braintree/sanitize-url': 7.1.1
-      '@iconify/utils': 2.3.0
+      '@iconify/utils': 2.3.0(supports-color@7.2.0)
       '@mermaid-js/parser': 0.4.0
       '@types/d3': 7.4.3
       cytoscape: 3.32.0
@@ -8268,10 +8275,10 @@ snapshots:
 
   micromark-util-types@2.0.2: {}
 
-  micromark@3.2.0:
+  micromark@3.2.0(supports-color@7.2.0):
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       decode-named-character-reference: 1.1.0
       micromark-core-commonmark: 1.1.0
       micromark-factory-space: 1.1.0
@@ -8290,10 +8297,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  micromark@4.0.2:
+  micromark@4.0.2(supports-color@7.2.0):
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
@@ -8622,17 +8629,17 @@ snapshots:
 
   react-is@18.3.1: {}
 
-  react-markdown@10.1.0(@types/react@18.3.23)(react@19.1.0):
+  react-markdown@10.1.0(@types/react@18.3.23)(react@19.1.0)(supports-color@7.2.0):
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
       '@types/react': 18.3.23
       devlop: 1.1.0
-      hast-util-to-jsx-runtime: 2.3.6
+      hast-util-to-jsx-runtime: 2.3.6(supports-color@7.2.0)
       html-url-attributes: 3.0.1
       mdast-util-to-hast: 13.2.0
       react: 19.1.0
-      remark-parse: 11.0.0
+      remark-parse: 11.0.0(supports-color@7.2.0)
       remark-rehype: 11.1.2
       unified: 11.0.5
       unist-util-visit: 5.0.0
@@ -8640,7 +8647,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-markdown@8.0.7(@types/react@18.3.23)(react@19.1.0):
+  react-markdown@8.0.7(@types/react@18.3.23)(react@19.1.0)(supports-color@7.2.0):
     dependencies:
       '@types/hast': 2.3.10
       '@types/prop-types': 15.7.14
@@ -8652,7 +8659,7 @@ snapshots:
       property-information: 6.5.0
       react: 19.1.0
       react-is: 18.3.1
-      remark-parse: 10.0.2
+      remark-parse: 10.0.2(supports-color@7.2.0)
       remark-rehype: 10.1.0
       space-separated-tokens: 2.0.2
       style-to-object: 0.4.4
@@ -8704,12 +8711,12 @@ snapshots:
       react: 19.1.0
       refractor: 3.6.0
 
-  react-youtube@10.1.0(react@19.1.0):
+  react-youtube@10.1.0(react@19.1.0)(supports-color@7.2.0):
     dependencies:
       fast-deep-equal: 3.1.3
       prop-types: 15.8.1
       react: 19.1.0
-      youtube-player: 5.5.2
+      youtube-player: 5.5.2(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -8796,53 +8803,53 @@ snapshots:
       hast-util-raw: 9.1.0
       vfile: 6.0.3
 
-  rehype-recma@1.0.0:
+  rehype-recma@1.0.0(supports-color@7.2.0):
     dependencies:
       '@types/estree': 1.0.8
       '@types/hast': 3.0.4
-      hast-util-to-estree: 3.1.3
+      hast-util-to-estree: 3.1.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  remark-gfm@4.0.1:
+  remark-gfm@4.0.1(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
-      mdast-util-gfm: 3.1.0
+      mdast-util-gfm: 3.1.0(supports-color@7.2.0)
       micromark-extension-gfm: 3.0.0
-      remark-parse: 11.0.0
+      remark-parse: 11.0.0(supports-color@7.2.0)
       remark-stringify: 11.0.0
       unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
-  remark-math@6.0.0:
+  remark-math@6.0.0(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
-      mdast-util-math: 3.0.0
+      mdast-util-math: 3.0.0(supports-color@7.2.0)
       micromark-extension-math: 3.1.0
       unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
-  remark-mdx@3.1.0:
+  remark-mdx@3.1.0(supports-color@7.2.0):
     dependencies:
-      mdast-util-mdx: 3.0.0
+      mdast-util-mdx: 3.0.0(supports-color@7.2.0)
       micromark-extension-mdxjs: 3.0.0
     transitivePeerDependencies:
       - supports-color
 
-  remark-parse@10.0.2:
+  remark-parse@10.0.2(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 3.0.15
-      mdast-util-from-markdown: 1.3.1
+      mdast-util-from-markdown: 1.3.1(supports-color@7.2.0)
       unified: 10.1.2
     transitivePeerDependencies:
       - supports-color
 
-  remark-parse@11.0.0:
+  remark-parse@11.0.0(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
-      mdast-util-from-markdown: 2.0.2
+      mdast-util-from-markdown: 2.0.2(supports-color@7.2.0)
       micromark-util-types: 2.0.2
       unified: 11.0.5
     transitivePeerDependencies:
@@ -8869,10 +8876,10 @@ snapshots:
       mdast-util-to-markdown: 2.1.2
       unified: 11.0.5
 
-  remark@15.0.1:
+  remark@15.0.1(supports-color@7.2.0):
     dependencies:
       '@types/mdast': 4.0.4
-      remark-parse: 11.0.0
+      remark-parse: 11.0.0(supports-color@7.2.0)
       remark-stringify: 11.0.0
       unified: 11.0.5
     transitivePeerDependencies:
@@ -9559,9 +9566,9 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  youtube-player@5.5.2:
+  youtube-player@5.5.2(supports-color@7.2.0):
     dependencies:
-      debug: 2.6.9
+      debug: 2.6.9(supports-color@7.2.0)
       load-script: 1.0.0
       sister: 3.0.2
     transitivePeerDependencies:
